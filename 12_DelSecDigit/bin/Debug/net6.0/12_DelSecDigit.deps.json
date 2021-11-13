@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "12_DelSecDigit/1.0.0": {
+        "runtime": {
+          "12_DelSecDigit.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "12_DelSecDigit/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
