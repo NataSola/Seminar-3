@@ -8,10 +8,13 @@ int x = new Random().Next(-100, 101);
 int y = new Random().Next(-100, 101);
 System.Console.WriteLine($"Координаты точки: ({x}, {y})");
 
-if (x > 0 && y > 0) QuarterNumber = 1;
+if (x * y == 0) QuarterNumber = 0;
+else if (x > 0 && y > 0) QuarterNumber = 1;
 else if (x < 0 && y > 0) QuarterNumber = 2;
 else if (x < 0 && y < 0) QuarterNumber = 3;
 else QuarterNumber = 4;
 
-System.Console.WriteLine($"Точка с координатами ({x}, {y}) находится в {QuarterNumber}-й четверти");
+System.Console.Write($"Точка с координатами ({x}, {y}) находится ");
+if (QuarterNumber == 0) System.Console.WriteLine("на одной из оси координат");
+else System.Console.WriteLine($"в {QuarterNumber}-й четверти");
 System.Console.WriteLine();
