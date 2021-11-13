@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "15_Multiple2Numbers/1.0.0": {
+        "runtime": {
+          "15_Multiple2Numbers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "15_Multiple2Numbers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
