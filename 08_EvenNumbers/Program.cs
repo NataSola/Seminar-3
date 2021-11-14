@@ -12,4 +12,4 @@ while (num < endNum)
     num++;
     if (num % 2 == 0) System.Console.Write($"{num} ");
 }
-System.Console.WriteLine();System.Console.WriteLine();
+System.Console.WriteLine(); System.Console.WriteLine();

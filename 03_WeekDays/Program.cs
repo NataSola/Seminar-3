@@ -12,4 +12,3 @@ if (result == false) System.Console.WriteLine("Число введено нев�
 else if (0 < dayNumber && dayNumber < 8) System.Console.WriteLine($"{dayNumber}-й день недели - {Days[dayNumber - 1]}");
 else System.Console.WriteLine("Дня недели с таким номером не существует");
 System.Console.WriteLine();
- 
