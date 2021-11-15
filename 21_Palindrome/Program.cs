@@ -10,7 +10,7 @@ System.Console.WriteLine();
 System.Console.Write("Введите целое число:   ");
 string number = Console.ReadLine();
 int length = number.Length;
-int num = Convert.ToInt32(number);
+string txtToCheck = number.Replace(" ","");  /// для проверки текста на палиндром
 
 bool IsPalindrome()
 {
@@ -23,7 +23,7 @@ bool IsPalindrome()
 }
 
 System.Console.WriteLine("Ответ при решении первым способом:");
-if (IsPalindrome()) System.Console.WriteLine($"1. Число {number} является палиндромом");
+if (IsPalindrome()) System.Console.WriteLine($"1. Введный текст/число - {number} - является палиндромом");
 else System.Console.WriteLine($"1. Число {number} не является палиндромом");
 System.Console.WriteLine();
 
@@ -31,11 +31,13 @@ System.Console.WriteLine();
 // / второй способ    -- ограничено девятизначными числами
 
 int dev1 = 1;
+int dev2 = 10;
+int num = Convert.ToInt32(number);
+
 for (int i = 0; i < length - 1; i++)
 {
     dev1 = dev1 * 10;
 }
-int dev2 = 10;
 
 bool IsPalindrome2()
 {
