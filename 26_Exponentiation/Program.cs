@@ -13,4 +13,5 @@ while (count < exponent)
     count++;
 }
 
-System.Console.WriteLine(result);
+System.Console.WriteLine($"{number} ^ {exponent} = {result}");
+System.Console.WriteLine();
