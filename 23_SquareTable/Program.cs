@@ -11,7 +11,6 @@ int[] GetSqrtTable(int N)
 {
     int[] SqrtArray = new int[N];
     int number = 1;
-
     for (int i = 0; i < N; i++)
     {
         SqrtArray[i] = number * number;
