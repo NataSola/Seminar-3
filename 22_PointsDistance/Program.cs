@@ -3,11 +3,11 @@
 Console.Clear();
 System.Console.WriteLine();
 
-int numPlan = 3;
-int min = -5;
-int max = 5;
+int numPlan = 3;            // количество осей координат
+int min = -5;               // минимальное значение диапазона для выбора случайных чисел
+int max = 6;                // максимальное значение диапазона ...
 
-int[] PointCoords(int numPlan)
+int[] PointCoords(int numPlan)                  
 {
     int[] coords = new int[numPlan];
     for (int i = 0; i < numPlan; i++)
@@ -46,5 +46,5 @@ PrintCoords(PointA);
 System.Console.Write($"Координаты точки B: ");
 PrintCoords(PointB);
 
-Distance(PointA, PointB);
-System.Console.WriteLine($"Раастояние между точками А и В: {Distance(PointA, PointB)}");
+System.Console.WriteLine($"Расстояние между точками А и В: {Distance(PointA, PointB)}");
+System.Console.WriteLine();
