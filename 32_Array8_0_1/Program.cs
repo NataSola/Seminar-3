@@ -6,15 +6,15 @@ int max = 1;
 
 int[] CreateArray(int N, int min, int max)
 {
-    int[] arr = new int[N];
+    int [] arr = new int [N];
     for (int i = 0; i < N; i++)
     {
-        arr[i] = new Random().Next(min, max + 1);
+        arr[i]=new Random().Next(min, max+1);
     }
     return arr;
 }
 
-void PrintArray(int[] array)
+void PrintArray(int[]array)
 {
     for (int i = 0; i < array.Length; i++)
     {
