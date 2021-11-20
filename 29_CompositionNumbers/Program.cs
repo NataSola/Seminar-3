@@ -7,10 +7,10 @@ System.Console.Write("Введите число:   ");
 string writeN = Console.ReadLine();
 int N = Convert.ToInt32(writeN);
 
-int GetNumbersComposition(int N)
+int GetNumbersComposition(int x)
 {
     int comp = 1;
-    for (int num = 1; num <= N; num++)
+    for (int num = 1; num <= x; num++)
     {
         comp = comp * num;
     }
