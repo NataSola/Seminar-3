@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "36_CountEvenUneven/1.0.0": {
+        "runtime": {
+          "36_CountEvenUneven.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "36_CountEvenUneven/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
