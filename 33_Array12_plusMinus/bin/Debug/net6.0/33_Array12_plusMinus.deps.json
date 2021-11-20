@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "33_Array12_plusMinus/1.0.0": {
+        "runtime": {
+          "33_Array12_plusMinus.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "33_Array12_plusMinus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
