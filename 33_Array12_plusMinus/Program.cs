@@ -36,13 +36,10 @@ void PritArray(int[] array)
     System.Console.WriteLine();
 }
 
-PritArray(PutSums(CreateArray(n,min,max)));
+PritArray(PutSums(CreateArray(n, min, max)));
 
 // если нужно вывести сам массив, то так:
 
 int[] array = CreateArray(n, min, max);
 PritArray(array);
 PritArray(PutSums(array));
-
-
-

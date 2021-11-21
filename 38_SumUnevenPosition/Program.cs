@@ -6,7 +6,7 @@ int size = 20;
 
 int[] FillArray(int size)
 {
-    int[] array = new int [size];
+    int[] array = new int[size];
     for (int i = 0; i < size; i++)
     {
         array[i] = new Random().Next(1, 100);
@@ -20,7 +20,7 @@ void PrintArray(int[] arr)
     System.Console.WriteLine();
     for (int i = 0; i < size; i++)
     {
-        System.Console.Write(arr[i]+" ");
+        System.Console.Write(arr[i] + " ");
         if (i % 2 > 0) sum += arr[i];
     }
     System.Console.WriteLine();

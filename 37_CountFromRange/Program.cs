@@ -28,4 +28,4 @@ void PrintCountArray(int[] arr)
     System.Console.WriteLine();
 }
 
-PrintCountArray(FillArray(size, min,max));
+PrintCountArray(FillArray(size, min, max));
