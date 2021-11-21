@@ -18,3 +18,4 @@ int GetNumbersComposition(int x)
 }
 
 System.Console.WriteLine($"Произведение чисел от 1 до {N} равно {GetNumbersComposition(N)}");
+System.Console.WriteLine();
