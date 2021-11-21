@@ -20,4 +20,4 @@ int GetNumbersSum(int A)
 }
 
 int NumbersSum = GetNumbersSum(A);
-System.Console.WriteLine(NumbersSum);
+System.Console.WriteLine($"Сумма чисел от 1 до {A} составляет {NumbersSum}");
